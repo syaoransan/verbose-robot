@@ -1,10 +1,12 @@
 .Header {
-padding: 1em;
-display: flex;
-background-color: transparent;
-background : none;
-align-items: center;
-z-index: 100;
+    position: fixed;
+    padding: 1em;
+    background-color: transparent;
+    background: none;
+    z-index: 100;
+    display: flex;
+    width: 100vw;
+    top: 0;
 
 }
 
@@ -12,7 +14,6 @@ z-index: 100;
 #tesla-logo{
     width: 100px;
     height: 25px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,16 +32,18 @@ z-index: 100;
     align-items: center;
 }
 .nav__list{
-    margin: 0;
-    padding: 0;
+    
     list-style: none;
     display: flex;
     flex-grow: 1;
     gap: 1em;
 
+
 }
 .nav__list li {
     text-transform: uppercase;
+    font-size: 14px;
+   
 }
 .nav__list>li>a {
     text-decoration: none;
@@ -57,3 +60,7 @@ z-index: 100;
     margin-left: auto;
 }
 
+.nav__list li:nth-of-type(8){
+
+    margin-right: 2em;
+}
