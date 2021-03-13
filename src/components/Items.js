@@ -22,7 +22,7 @@ const Items = () => {
                 rightBtnTxt='Existing Inventory'
                 rightBtnLink=''
                 twoButtons='true'
-                first
+                first = 'true'
             />
                <Item
                 title = 'Model S'
@@ -93,7 +93,7 @@ const Items = () => {
                 leftBtnLink =''
                 rightBtnTxt='Existing Inventory'
                 rightBtnLink=''
-                twoButtons='true'
+          
              
             />
 

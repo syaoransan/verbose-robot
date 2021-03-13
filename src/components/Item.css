@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
+
+    scroll-snap-align: start;
     
 }
 
@@ -28,7 +30,7 @@
 
 .item-buttons{
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
     position: absolute;
     bottom: 10%;
